@@ -1,12 +1,13 @@
 import React from 'react'
 import Logo from '../../images/Logo.png'
+import './Footer.css'
 
 const Footer = () => {
   return (
     <footer>
         <img src={Logo} alt="Logo" />
       <nav>
-      <ul>
+      <ul id='FooterNav'>
           <li>Home</li>
           <li>About</li>
           <li>Menu</li>

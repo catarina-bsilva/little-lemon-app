@@ -1,0 +1,49 @@
+article#Highlights{
+    max-width: 235px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #495E57;
+}
+
+article#Highlights>img{
+    width: 233px;
+    height: 155px;
+}
+
+#ContainerHighlights{
+    padding: 3px;
+}
+
+#ContainerHighlights h3{
+    text-align: center;
+    font-size: 18px;
+    color: #495E57;
+    margin:5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#ContainerHighlights h3:hover{
+    color: #EE9972;
+}
+
+
+#ContainerHighlights>p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#ContainerHighlights :last-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+#ContainerHighlights :last-child span img{
+    cursor: pointer;
+    transition: .3s;
+}
+
