@@ -17,11 +17,12 @@ article#Highlights>img{
 
 #ContainerHighlights h3{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: #495E57;
     margin:5px;
     cursor: pointer;
     transition: .3s;
+    font-family: 'Markazi Text';
 }
 
 #ContainerHighlights h3:hover{
@@ -30,9 +31,10 @@ article#Highlights>img{
 
 
 #ContainerHighlights>p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 5px;
+    font-family: 'Karla';
 }
 
 #ContainerHighlights :last-child{
@@ -40,6 +42,7 @@ article#Highlights>img{
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
+    color: #495E57;
 }
 
 #ContainerHighlights :last-child span img{

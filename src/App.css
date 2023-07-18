@@ -4,63 +4,30 @@
   box-sizing: border-box;
 }
 
-header{
-  background-color: white;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  height: 8vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+a{
+  text-decoration: none;
 }
 
-header ul{
-  display: flex;
-  width: 50vw;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
+a:visited{
+  color: inherit;
+}
 
+.MenuHide{
+  color: #495E57;
+  font-size: 1.7rem;
+  align-self: center;
+  display: none;
 }
-main{
-  max-height: 78vh;
-  margin-top: 8vh;
-  margin-bottom:14vh ;
-  border: 1px solid red;
-}
-footer{
-  width: 100vw;
-  background-color:  #495E57;
-  height: 14vh;
-  position: fixed;
-  bottom: 0;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+footer .MenuHide{
   color: #F4CE14;
+  font-size: 3rem;
 }
 
-#FooterNav{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 8vh;
-  width: 12vw;
-  justify-content: space-around;
-  align-items: center;
-  
-}
+@media screen and (max-width: 600px) {
+  .MenuHide{
+    display: block;
+  }
 
-footer ul{
-  list-style: none;
-}
-
-footer img{
-  background-color: white;
-  padding: 3px;
+ 
 }

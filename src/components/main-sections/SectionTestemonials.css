@@ -1,0 +1,29 @@
+#Testemonials{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+#Testemonials .TiTleSection{
+    grid-column: 1/span4;
+    
+}
+
+@media screen and (max-width: 600px) {
+    #Testemonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #Testemonials h1{
+        margin-bottom: 10px;
+    }
+
+    #Testemonials #TestemonialsCard{
+        margin-bottom: 8px;
+    }
+
+  }

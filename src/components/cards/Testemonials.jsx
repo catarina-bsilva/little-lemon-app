@@ -8,7 +8,7 @@ const renderStars = () => {
     const stars = [];
 
     for (let i = 0; i < Rating; i++) {
-        stars.push(<img key={i} src={starImg} alt="Star" width="30px" />);
+        stars.push(<img key={i} src={starImg} alt="Star" width="22px" />);
     }
 
     return stars;

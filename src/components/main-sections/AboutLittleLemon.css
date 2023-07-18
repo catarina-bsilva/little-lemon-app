@@ -1,0 +1,41 @@
+#AboutLittleLemon{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    background-color: #EDEFEE;
+    justify-content: space-between;
+}
+
+#AboutLittleLemon .TiTleSection{
+    grid-column: 1/span2;
+}
+
+#AboutLittleLemon article{
+    justify-self: center;
+    padding-top: 5vh;
+    font-family: 'Karla';
+}
+
+#AboutLittleLemonFoto{
+    margin: 0px 10vw 10vh 10vw;
+}
+
+@media screen and (max-width: 600px) {
+    #AboutLittleLemon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #AboutLittleLemon article{
+        padding: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    #AboutLittleLemonFoto{
+        align-self: center;
+        margin-bottom: 10px;
+    }
+  }

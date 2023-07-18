@@ -1,0 +1,29 @@
+#WeeksHighlights{
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #EDEFEE;
+    padding-bottom: 25px;
+}
+
+#WeeksHighlights .TiTleSection{
+    grid-column: 1/span3;
+}
+
+@media screen and (max-width: 600px) {
+    #WeeksHighlights{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #WeeksHighlights h1{
+        margin-bottom: 10px;
+    }
+
+    #WeeksHighlights #Highlights{
+        margin-bottom: 8px;
+    }
+
+  }
