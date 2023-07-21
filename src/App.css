@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+main{
+  max-width: 100vw;
+  overflow-x: hidden;
+  max-height: 78vh;
+  margin-top: 8vh;
+}
+
 a{
   text-decoration: none;
 }

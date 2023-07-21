@@ -1,0 +1,166 @@
+#Phone::-webkit-inner-spin-button,
+#Phone::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#Phone {
+  -moz-appearance: textfield;
+}
+
+.Reservations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla';
+    color: #495E57;
+}
+
+.Reservations .TitleReservations{
+    position: fixed;
+    top: 8vh;
+    text-align: center;
+    padding: 0;
+    margin: 0px auto 5px auto;
+}
+.Reservations form{
+    margin-top: 12vh;
+}
+.Reservations div, .Reservations select{
+    margin-bottom: 5px;
+}
+
+.Reservations label{
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BtnForm{
+    align-self: center;
+    justify-self: center;
+    margin: 20px 100px;
+}
+
+.Reservations p{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+input{
+    margin-right: 15px;
+}
+
+
+.ReservationsPage2 div{
+    margin-bottom: 17px;
+}
+
+#ArrowBack{
+    font-size: 30px;
+    margin-right: 20px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+#PrvStep{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+#PrvStep p{
+    font-weight: bold;
+}
+
+#SubmitButton{
+    margin-top: 8vh;
+}
+
+.FormActive{
+    display: block;
+}
+
+.FormInactive{
+    display: none;
+}
+
+#Step2Form div :not( #PrvStep){
+    margin-bottom: 15px
+};
+
+
+input[type="email"], 
+input[type="text"] {
+    width:250px
+}
+
+#Step2Form{
+    margin-top: -100px;
+}
+
+#Confirmation{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    translate: -50%;
+    font-family: 'Markazi Text';
+    font-size: 2.5rem;
+    color: #495E57;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .Reservations{
+      min-height: 82vh;
+      margin-top: 8vh;
+      
+    }
+
+    .Reservations form{
+        margin-top: 0;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Reservations form textarea{
+        width: 90vw;
+    }
+    
+    .Reservations form .BtnForm{
+        align-self: center;
+        justify-self: center;
+        margin:  10px 20vw;
+    }
+    .Reservations label{
+        font-size: 17px;
+    }
+
+    #Step2Form #PrvStep {
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+    }
+
+    #Confirmation{
+        width: 80vw;
+        font-size: 1.7rem;
+    }
+
+    #Step2Form #SubmitButton{
+        align-self: center;
+        justify-self: center;
+        margin:  50px 20vw;
+    }
+  }
